@@ -1,0 +1,6 @@
+gcc simplest_ffmpeg_video_player.c -I./ -lavcodec -lavformat -lswscale -lavutil -L. -o test.out `sdl-config --cflags --libs`
+
+gcc simplest_ffmpeg_audio_player.c -I./ -lavcodec -lavformat -lswscale -lavutil -lavutil -lswresample -L. -o audio.out `sdl-config --cflags --libs`
+
+gcc my_player.c -I./ -lavcodec -lavformat -lswscale -lavutil -lavutil -lswresample -L. -g -o my_play `sdl-config --cflags --libs`
+

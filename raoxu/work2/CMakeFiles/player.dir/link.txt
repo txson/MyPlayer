@@ -1,0 +1,1 @@
+/usr/bin/cc   -D_GNU_SOURCE=1 -D_REENTRANT  -O0 -Wall -g -ggdb   CMakeFiles/player.dir/main.c.o  -o player -rdynamic -lavcodec -lavformat -lavutil -lswresample -lswscale -lSDL 
